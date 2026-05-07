@@ -1,0 +1,11 @@
+{
+  "id": "TestSubjectEnrageBalance",
+  "name": "Test Subject Enrage Rebalance Mod",
+  "author": "Kziz3988",
+  "description": "Make the phase 1 of test subject easier in multiplayer games",
+  "version": "0.0.1",
+  "has_pck": true,
+  "has_dll": true,
+  "dependencies": ["BaseLib"],
+  "affects_gameplay": true
+}

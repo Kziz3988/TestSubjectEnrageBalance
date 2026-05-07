@@ -1,0 +1,9 @@
+{
+  "TESTSUBJECTENRAGEBALANCE-NEW_ENRAGE_POWER.title": "Enrage",
+  "TESTSUBJECTENRAGEBALANCE-NEW_ENRAGE_POWER.description": "Whenever you play a Skill, the damage the Test Subject deals to you increases by [blue]2[/blue].",
+  "TESTSUBJECTENRAGEBALANCE-NEW_ENRAGE_POWER.smartDescription": "Whenever you play a Skill, the damage the Test Subject deals to you increases by [blue]{Amount}[/blue].",
+
+  "TESTSUBJECTENRAGEBALANCE-ENRAGED_POWER.title": "Enraged",
+  "TESTSUBJECTENRAGEBALANCE-ENRAGED_POWER.description": "The damage the Test Subject deals to you increased by [blue]2[/blue] while it is alive.",
+  "TESTSUBJECTENRAGEBALANCE-ENRAGED_POWER.smartDescription": "The damage the Test Subject deals to you increased by [blue]{Amount}[/blue] while it is alive."
+}

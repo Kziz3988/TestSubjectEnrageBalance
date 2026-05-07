@@ -1,0 +1,9 @@
+{
+  "TESTSUBJECTENRAGEBALANCE-NEW_ENRAGE_POWER.title": "激怒",
+  "TESTSUBJECTENRAGEBALANCE-NEW_ENRAGE_POWER.description": "每当你打出一张技能牌时，实验体对你造成的伤害增加[blue]2[/blue]。",
+  "TESTSUBJECTENRAGEBALANCE-NEW_ENRAGE_POWER.smartDescription": "每当你打出一张技能牌时，实验体对你造成的伤害增加[blue]{Amount}[/blue]。",
+
+  "TESTSUBJECTENRAGEBALANCE-ENRAGED_POWER.title": "触怒",
+  "TESTSUBJECTENRAGEBALANCE-ENRAGED_POWER.description": "实验体存活时，对你造成的伤害增加[blue]2[/blue]。",
+  "TESTSUBJECTENRAGEBALANCE-ENRAGED_POWER.smartDescription": "实验体存活时，对你造成的伤害增加[blue]{Amount}[/blue]。"
+}
