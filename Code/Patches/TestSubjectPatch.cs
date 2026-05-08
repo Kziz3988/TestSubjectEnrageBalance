@@ -36,8 +36,8 @@ public static class TestSubjectPatch
 	static async Task AfterAddedToRoomAsync(TestSubject testSubject)
 	{
 		await BaseAfterAddedToRoom();
-		await PowerCmd.Apply<AdaptablePower>(testSubject.Creature, 1m, testSubject.Creature, null);
-		await PowerCmd.Apply<Code.Powers.NewEnragePower>(testSubject.Creature, 3m, testSubject.Creature, null);
+		await PowerCmd.Apply<AdaptablePower>(new ThrowingPlayerChoiceContext(), testSubject.Creature, 1m, testSubject.Creature, null);
+		await PowerCmd.Apply<Code.Powers.NewEnragePower>(new ThrowingPlayerChoiceContext(), testSubject.Creature, 3m, testSubject.Creature, null);
 		MethodInfo afterApplied = typeof(TestSubject).GetMethod("AfterPowerApplied", BindingFlags.NonPublic | BindingFlags.Instance);
     	MethodInfo afterRemoved = typeof(TestSubject).GetMethod("AfterPowerRemoved", BindingFlags.NonPublic | BindingFlags.Instance);
     	testSubject.Creature.PowerApplied += (Action<PowerModel>)Delegate.CreateDelegate(typeof(Action<PowerModel>), testSubject, afterApplied);

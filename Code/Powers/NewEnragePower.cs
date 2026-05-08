@@ -16,7 +16,7 @@ public sealed class NewEnragePower: CustomPowerModel
 		if (cardPlay.Card.Type == CardType.Skill)
 		{
 			await Cmd.Wait(0.5f);
-			await PowerCmd.Apply<EnragedPower>(cardPlay.Card.Owner.Creature, base.Amount, base.Owner, null);
+			await PowerCmd.Apply<EnragedPower>(context, cardPlay.Card.Owner.Creature, base.Amount, base.Owner, null);
 		}
 	}
 }
